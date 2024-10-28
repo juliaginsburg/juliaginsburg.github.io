@@ -1,6 +1,6 @@
 body {
 
-    background: linear-gradient(#1C5F73, #3F3E65);      /* choose background colour */
+    background: linear-gradient(#000DC9, #9E0031);      /* choose background colour */
 
     font-size: 24px;
     font-family: Helvetica, Calibri, sans-serif;
@@ -50,7 +50,7 @@ h2 {
     padding-right: 1em;
     padding-top: 0;
 
-    color: #edd3c4;   /* choose the colour of About You text */
+    color: #B4CDED;   /* choose the colour of About You text */
 
     font-weight: 200;
     font-size: 1.2em;
@@ -71,9 +71,9 @@ h3 {
 
     margin: 0.4em auto;
 
-    color: #edd3c4;   /* choose the colour of the Subheading text */
+    color: #B4CDED;   /* choose the colour of the Subheading text */
 
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1.3em;
 
     padding-top: 0.4em;
@@ -95,7 +95,7 @@ h3 {
     flex-flow: column wrap;
     align-items: center;
 
-    background-color: #2D3238;  /* choose the background colour of link buttons */
+    background-color: #1B1F3B;  /* choose the background colour of link buttons */
 
 
     flex: 1;
@@ -114,16 +114,42 @@ h3 {
 
     box-sizing: border-box;
 
-    border: solid 2px #2D3238;
+    border: solid 2px #1b1f3b;
     border-radius: 0.4em;
 
     height: 2.2em;
     min-width: 15em;
     max-width: 30em;
 
-    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last numbre in rgba in the range of 0 to 1 to change transparency of the button shadow */
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(27,31,59,0.5); /* change the last numbre in rgba in the range of 0 to 1 to change transparency of the button shadow */
 }
 
+#aboutme {
+   display: flex;
+   justify-content: center;
+   flex-flow: column wrap;
+
+   text-align: left;
+
+   padding-left: 1em;
+   padding-right: 1em;
+
+   margin: 0.4em auto;
+
+   color: #ffeef2;
+
+   font-weight: 200;
+   font-size: 1.1em;
+
+   padding-top: 0.4em;
+   padding-bottom: 0.4em;
+
+   min-width: 7em;
+   max-width: 33em;
+
+   margin-top: 0.4em;
+   margin-bottom: 2em;
+}
 
 /* Your Photo styling */
 #photo {
@@ -244,8 +270,8 @@ a:hover {
 
     letter-spacing: 0.01em;
 
-    border: solid 2px #292929;    /* button border on hover */
-    box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow when mouse os hovering */
+    border: solid 2px #1B1F3B;    /* button border on hover */
+    box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(27,31,59,0.5); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow when mouse os hovering */
 }
 
 a:active {
@@ -253,8 +279,8 @@ a:active {
     text-decoration: none;
     font-weight: 400;
 
-    border: solid 2px #292929;      /* button border on click */
-    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow on click*/
+    border: solid 2px #1B1F3B;      /* button border on click */
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(27,31,59,0.5); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow on click*/
 
     position: relative;
     top: 1px;
@@ -328,4 +354,37 @@ a:active#foot {
     top: 1px;
     border: none;
     box-shadow: none;
+}
+
+/* End of:  Stylink links */
+/* ============================================================= */
+
+
+a.just-link {
+   display: inline;
+}
+a.just-link:link {
+   color: #B4CDED;
+   text-decoration: underline;
+}
+a.just-link:visited {
+   color: #B4CDED;
+   text-decoration: underline;
+}
+a.just-link:hover {
+   color: #B4CDED;
+   text-decoration: underline;
+   font-weight: 400;
+   letter-spacing: 0.01em;
+   border: none;
+   box-shadow: none;
+}
+a.just-link:active {
+   color: #B4CDED;
+   text-decoration: underline;
+   font-weight: 400;
+   position: relative;
+   top: 1px;
+   border: none;
+   box-shadow: none;
 }
