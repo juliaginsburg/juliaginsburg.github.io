@@ -1,0 +1,331 @@
+body {
+
+    background: linear-gradient(#1C5F73, #3F3E65);      /* choose background colour */
+
+    font-size: 24px;
+    font-family: Helvetica, Calibri, sans-serif;
+
+    text-align: center;
+
+    min-height: 100vh;
+
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+
+}
+
+ .container {
+  margin-left: 0 env(safe-area-inset-left);
+  margin-right: 0 env(safe-area-inset-right);
+}
+
+@media (pointer:coarse) {
+    body { font-size: 17px;
+    }
+}
+
+
+/* Your Name Styling */
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    color: #ffeef2;              /* choose the colour of Your Name text */
+    font-size: 1.7em;
+
+    padding-bottom: 0.5em;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* About You section styling  */
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+
+    color: #edd3c4;   /* choose the colour of About You text */
+
+    font-weight: 200;
+    font-size: 1.2em;
+
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+
+/* Subheadings styling */
+h3 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    margin: 0.4em auto;
+
+    color: #edd3c4;   /* choose the colour of the Subheading text */
+
+    font-weight: 400;
+    font-size: 1.3em;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+
+    min-width: 7em;
+    max-width: 20em;
+
+    margin-top: 2em;
+    margin-bottom: -0.3em;
+}
+
+
+/* Links styling */
+.link-box {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+
+    background-color: #2D3238;  /* choose the background colour of link buttons */
+
+
+    flex: 1;
+
+    margin: 0.4em auto;
+
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+
+    text-align: center;
+    font-size: 1.2em;
+
+    font-weight: 400;
+
+    padding: 1.2em 3.4em 1.2em 3.4em;
+
+    box-sizing: border-box;
+
+    border: solid 2px #2D3238;
+    border-radius: 0.4em;
+
+    height: 2.2em;
+    min-width: 15em;
+    max-width: 30em;
+
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last numbre in rgba in the range of 0 to 1 to change transparency of the button shadow */
+}
+
+
+/* Your Photo styling */
+#photo {
+    width:9.5em;
+    height:9.5em;
+    object-fit:cover;
+    border-radius:50%;
+
+    margin-top: 1.2em;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+/* ============================================================= */
+
+/* Icons for links Styling */
+
+
+#github {
+    background-image: url('images/github.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#soundcloud {
+    background-image: url('images/soundcloud.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#linkedin {
+    background-image: url('images/linkedin.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#facebook {
+    background-image: url('images/facebook.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+
+#twitter {
+    background-image: url('images/twitter.png');
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#instagram {
+    background-image: url("images/insta.png");
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#medium {
+    background-image: url(images/medium.png);
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#px {
+    background-image: url(images/px.png);
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#gmail {
+    background-image: url(images/gmail.png);
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+#youtube {
+    background-image: url(images/youtube.png);
+    background-repeat: no-repeat;
+    background-size: 1.7em;
+    background-position: 0.4em center;
+}
+
+/* ============================================================= */
+
+
+
+/* Stylink links */
+
+a {
+    display: inline-block;
+}
+
+
+a:link {
+    color: #FFEEF2;            /* choose the colour of links */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFEEF2;          /* choose the colour of visited links. Preferably match it to the previous colour */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFEEF2;          /* choose the colour of links when mouse is hovering over them */
+    text-decoration: none;
+    font-weight: 400;
+
+    letter-spacing: 0.01em;
+
+    border: solid 2px #292929;    /* button border on hover */
+    box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow when mouse os hovering */
+}
+
+a:active {
+    color: #FFEEF2;         /* choose the colour of links on click */
+    text-decoration: none;
+    font-weight: 400;
+
+    border: solid 2px #292929;      /* button border on click */
+    box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1); /* change the last number in rgba in the range of 0 to 1 to change transparency of the button shadow on click*/
+
+    position: relative;
+    top: 1px;
+}
+
+
+/* End of:  Stylink links */
+
+/* ============================================================= */
+
+
+
+/* Footer styling */
+footer {
+
+    color: rgba(237, 211, 196, 0.2);
+
+    margin-top: auto;
+
+    padding: 2em 0 1.5em;
+    vertical-align: middle;
+
+    font-weight: lighter;
+
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;   /* Height of the footer */
+    text-align: center;
+
+    clear:  both;
+}
+
+
+
+/* ============================================================= */
+
+
+
+/* Stylink links */
+
+a #foot {
+    display: inline-block;
+}
+
+
+a:link#foot {
+    color: rgba(237, 211, 196, 0.25);
+    text-decoration: underline;
+}
+
+a:visited#foot {
+    color: rgba(237, 211, 196, 0.25);
+    text-decoration: underline;
+}
+
+a:hover#foot {
+    color: rgba(237, 211, 196, 0.3);
+    text-decoration: underline;
+    font-weight: 400;
+
+    border: none;
+    box-shadow: none;
+}
+
+a:active#foot {
+    color: rgba(237, 211, 196, 0.3);
+    text-decoration: underline;
+    font-weight: 400;
+
+    position: relative;
+    top: 1px;
+    border: none;
+    box-shadow: none;
+}
